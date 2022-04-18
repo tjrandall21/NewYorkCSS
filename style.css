@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    
+    background-color: #e0e4e9;
+    font-family: 'Lora', serif;
+}
+
+a {
+    color: #AB440D;
+}
+
+main {
+    max-width: 1024px;
+    margin: 2rem auto;
+    overflow: hidden;
+    background-color: rgba(0, 23, 85, .8);
+    border-radius: 2rem;
+    box-shadow: 0px 4px 4px 2px rgba(0, 23, 85, .3);
+}
+
+h1 {
+    margin: 0;
+    padding: 1rem 0 .5rem;
+    text-align: center;
+    line-height: 1.1;
+    font-family: 'Comfortaa', cursive;
+    font-size: 3.5rem;
+    color: white;
+    text-transform: uppercase;
+    background-image: linear-gradient(#41589b,#11286b);
+
+}
+
+#quote {
+    padding-top: 30%;
+    padding-bottom: 30%;
+    padding-left: 0%;
+    padding-right: 0%;
+    background: url(florian-wehde-nyc-skyline.jpg) center / cover no-repeat #EE6920;
+    background-blend-mode: luminosity;
+}
+
+blockquote {
+    padding: 1rem;
+    width: 70%;
+    margin: 0 auto;
+    background-color: rgba(0, 23, 85, .8);
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+footer {
+    text-align: center;
+}
